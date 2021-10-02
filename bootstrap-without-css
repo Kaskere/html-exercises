@@ -11,46 +11,118 @@
   </head>
  
   <body>
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown button
-        </button>
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown button
+
+    <button type="button" class="column" class="btn btn-secondary"> <a href="#" >  Differences between Angular and AngularJS</button> </a> 
+
+        <button type="button" class="column" class="btn-group dropdown" data-toggle="dropdown"
+         aria-haspopup="true" aria-expanded="false">
+         <a href="#" > History  </a>
+
           </button>
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown button
-          </button>
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown button
-          </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" href="#">Naming</a>
+            <a class="dropdown-item" href="#">Version 2</a>
+            <a class="dropdown-item" href="#">Version 4</a>
+            <a class="dropdown-item" href="#">Version 5</a>
+            <a class="dropdown-item" href="#">Version 6</a>
+            <a class="dropdown-item" href="#">Version 7</a>
+            <a class="dropdown-item" href="#">Version 8</a>
+            <a class="dropdown-item" href="#">Version 9</a>
+          </div>
         </div>
+        <button type="button" class="column" class="btn btn-secondary"> <a href="#" >  Libraries</button> </a>
+        <button type="button" class="column" class="btn btn-secondary"> <a href="#" > Video Tutorial</button> </a>
       </div>
+    </div>
+
+    <table class="border border-primary" style="text-align: center; float:right; float:up" >
+
+        <tbody>
 
 
-
-
+       <td>
         <img align="right" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg" 
         width="400" height="400"  >
+       </td>
+       <td>
+
+          <tr>
+            <th scope="row">Developer(s)</th>
+            <td>Google</td>
+
+          </tr>
+          <tr>
+            <th scope="row">Initial release</th>
+            <td>2.0 / 14 September 2016</td>
+
+          </tr>
+          <tr>
+            <th scope="row">Stable release</th>
+            <td>10.1.5 / 7 October 2020</td>
+
+          </tr>
+          <tr>
+            <th scope="row">Preview release</th>
+            <td>11.0.0-next.5 / 7 October 2020</td>
+
+          </tr>
+          <tr>
+            <th scope="row">Repository</th>
+            <td><a href="https://github.com/angular/angular">Angular Repository</a></td>
+
+          </tr>
+          <tr>
+            <th scope="row">Written in</th>
+            <td>TypeScript</td>
+
+          </tr>
+          <tr>
+            <th scope="row">Platform</th>
+            <td>Web platform</td>
+
+          </tr>
+          <tr>
+            <th scope="row">Type</th>
+            <td>Web framework</td>
+
+          </tr>
+
+          <tr>
+            <th scope="row">License</th>
+            <td>MIT License</td>
+
+          </tr>
+
+          <tr>
+            <th scope="row">Website</th>
+            <td><a href="https://angular.io">angular.io</a></td>
+
+          </tr>
+
+
+        </tbody>
+      </table>
+
+
+
+
+
       <div class="container">
         <br>
         <h1><b> Angular </b> </h1>
         <br>
         
-        Angular (commonly referred to as "Angular 2+" or "Angular v2 and above") is a TypeScript-based open-source web application framework led by the Angular Team at Google and by 
+        Angular (commonly referred to as "Angular 2+" or "Angular v2 and above") is a TypeScript-based open-source web application framework led by the Angular Team at <a href="https://www.google.com"> Google </a> and by 
         a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.
         <br>
+        
         Differences between Angular and AngularJS
         <br>
         <p>Google designed Angular as a ground-up rewrite of AngularJS.</p>
         <ul><br>
         <li>Angular does not have a concept of "scope" or controllers, instead it uses a hierarchy of components 
             as its primary architectural characteristic.</li>
-        <li>Angular has a different expression syntax, focusing on "[ ]" for property binding, and "( )" for 
+        <li>Angular has a different expression syntax, focusing on <code>"[ ]"</code> for property binding, and <code>"( )"</code> for 
             event binding</li>
             <li>Modularity – much core functionality has moved to modules</li>
             <li>Angular recommends the use of Microsoft's TypeScript language, which introduces the following 
@@ -200,11 +272,15 @@
         This homework was created by <mark>Baiba Alksere</mark> on <mark>08.10.2021.</mark>
 
       </div>
-      <!-- add these lines if dropdown doesnt work in bootstrap v4 -->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity=
+      "sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+      
       </body>
       </html>
+
+
 
 
