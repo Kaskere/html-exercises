@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>work 1</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+  </head>
+  <style> html{
+    border: solid; } </style>
+  <body>
+    <img src="../1.jpg"
+    style="display:block">
+    </picture>
+    <picture>
+    <label for="front-end">What of the following are front-end technologies?</label>
+
+    <select name="front-end" id="front-end" size="5">
+      <option >JavaScript</option>
+      <option >PHP</option>
+      <option >HTML</option>
+      <option >Python</option>
+      <option >CSS</option>
+
+    </select>
+<br>
+    <a href="http://example.com">More information</a>
