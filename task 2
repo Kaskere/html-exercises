@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+<h1>Task 2</h1>
+<form action="http://example/webtech/test1/index.html">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" ><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" ><br><br>
+  <label for="fname"> Gender</label> <br>
+  <input type="radio" name="gender" value="male"> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <label for="fname">Password</label>
+  <input type="password" id="fname" ><br><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
