@@ -12,9 +12,9 @@
  
   <body>
 
-    <button type="button" class="column" class="btn btn-secondary"> <a href="#" >  Differences between Angular and AngularJS</button> </a> 
+    <button type="button" class="btn btn-default dropdown-toggle"  class="column" class="btn btn-secondary"> <a href="#" >  Differences between Angular and AngularJS</button> </a> 
 
-        <button type="button" class="column" class="btn-group dropdown" data-toggle="dropdown"
+        <button type="button" class="btn btn-default dropdown-toggle" class="column" class="btn-group dropdown" data-toggle="dropdown"
          aria-haspopup="true" aria-expanded="false">
          <a href="#" > History  </a>
 
@@ -30,11 +30,12 @@
             <a class="dropdown-item" href="#">Version 9</a>
           </div>
         </div>
-        <button type="button" class="column" class="btn btn-secondary"> <a href="#" >  Libraries</button> </a>
-        <button type="button" class="column" class="btn btn-secondary"> <a href="#" > Video Tutorial</button> </a>
+        <button type="button" class="btn btn-default dropdown-toggle"  class="column" class="btn btn-secondary"> <a href="#" >  Libraries</button> </a>
+        <button type="button" class="btn btn-default dropdown-toggle"  class="column" class="btn btn-secondary"> <a href="#" > Video Tutorial</button> </a>
       </div>
     </div>
-
+    
+    <div class="float-right" >
     <table class="border border-primary" style="text-align: center; float:right; float:up" >
 
         <tbody>
@@ -103,11 +104,12 @@
         </tbody>
       </table>
 
-
+</div>
 
 
 
       <div class="container">
+        <div class="w-75 p-3" >
         <br>
         <h1><b> Angular </b> </h1>
         <br>
@@ -272,6 +274,7 @@
         This homework was created by <mark>Baiba Alksere</mark> on <mark>08.10.2021.</mark>
 
       </div>
+    </div>
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity=
@@ -280,7 +283,4 @@
       
       </body>
       </html>
-
-
-
 
