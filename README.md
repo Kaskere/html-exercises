@@ -1,2 +1,2 @@
 # html-exercises
-simple university tasks
+simple university tasks with shitty webpages
